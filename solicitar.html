@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Solicite seu site com a Shyxzz Sites.">
+  <title>Solicitar projeto | Shyxzz Sites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html">SHYXZZ <span>SITES</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="processo.html">Como funciona</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+        <a class="button button-small" href="solicitar.html">Criar meu site</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Solicitar projeto</span>
+        <h1>Conte-nos sobre o seu novo site.</h1>
+        <p>Preencha o formulário e continue pelo WhatsApp para confirmar o envio.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-layout">
+        <aside class="form-aside">
+          <h2>Vamos criar algo profissional?</h2>
+          <p>Informe o máximo de detalhes possível. Assim, conseguiremos entender melhor sua necessidade.</p>
+          <ul>
+            <li>Resposta direta pelo WhatsApp</li>
+            <li>Análise de prazo e orçamento</li>
+            <li>Suporte durante o projeto</li>
+          </ul>
+        </aside>
+
+        <form class="project-form" id="project-form">
+          <div class="form-grid">
+            <label>
+              Seu nome *
+              <input type="text" name="nome" required placeholder="Ex: Maria Silva">
+            </label>
+
+            <label>
+              Seu WhatsApp *
+              <input type="tel" name="whatsapp" required placeholder="(00) 00000-0000">
+            </label>
+
+            <label>
+              Nome da empresa ou loja
+              <input type="text" name="empresa" placeholder="Ex: Loja XYZ">
+            </label>
+
+            <label>
+              Tipo de site *
+              <select name="tipo" id="tipo-site" required>
+                <option value="">Selecione</option>
+                <option value="Loja virtual">Loja virtual</option>
+                <option value="Landing page">Landing page</option>
+                <option value="Site institucional">Site institucional</option>
+                <option value="Site personalizado">Site personalizado</option>
+              </select>
+            </label>
+
+            <label>
+              Prazo desejado
+              <select name="prazo">
+                <option value="Não tenho prazo definido">Não tenho prazo definido</option>
+                <option value="Até 7 dias">Até 7 dias</option>
+                <option value="Até 15 dias">Até 15 dias</option>
+                <option value="Até 30 dias">Até 30 dias</option>
+              </select>
+            </label>
+
+            <label>
+              Orçamento aproximado
+              <select name="orcamento">
+                <option value="Ainda não sei">Ainda não sei</option>
+                <option value="Até R$ 300">Até R$ 300</option>
+                <option value="R$ 300 a R$ 700">R$ 300 a R$ 700</option>
+                <option value="R$ 700 a R$ 1.500">R$ 700 a R$ 1.500</option>
+                <option value="Acima de R$ 1.500">Acima de R$ 1.500</option>
+              </select>
+            </label>
+
+            <label class="full">
+              Recursos que você precisa
+              <div class="checkbox-grid">
+                <label><input type="checkbox" name="recursos" value="Produtos"> Produtos</label>
+                <label><input type="checkbox" name="recursos" value="Pagamento online"> Pagamento online</label>
+                <label><input type="checkbox" name="recursos" value="WhatsApp"> WhatsApp</label>
+                <label><input type="checkbox" name="recursos" value="Blog"> Blog</label>
+                <label><input type="checkbox" name="recursos" value="Área administrativa"> Área administrativa</label>
+                <label><input type="checkbox" name="recursos" value="Outros"> Outros</label>
+              </div>
+            </label>
+
+            <label class="full">
+              Conte sua ideia *
+              <textarea name="descricao" required rows="6" placeholder="Descreva seu negócio, objetivo, referências, cores e informações que o site deve ter."></textarea>
+            </label>
+          </div>
+
+          <p class="form-note">Ao continuar, o WhatsApp será aberto com os dados preenchidos para você confirmar o envio.</p>
+          <button class="button form-button" type="submit">Enviar pelo WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="brand" href="index.html">SHYXZZ <span>SITES</span></a><p>Sites modernos para lojas e negócios.</p></div>
+      <div><h3>Páginas</h3><a href="index.html">Início</a><a href="servicos.html">Serviços</a><a href="processo.html">Como funciona</a><a href="contato.html">Contato</a></div>
+      <div><h3>Redes</h3><div class="social-links">
+        <a href="https://instagram.com/shyxzz" target="_blank" rel="noopener noreferrer">◎</a>
+        <a href="https://www.tiktok.com/@shyxzzxits" target="_blank" rel="noopener noreferrer">♪</a>
+      </div></div>
+    </div>
+    <div class="container copyright">© <span data-year></span> Shyxzz Sites.</div>
+  </footer>
+</body>
+</html>
